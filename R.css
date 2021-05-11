@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 *{
-    font-family: 'cwTeXFangSong', serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 body{
     background-color: #e6e6e6;
