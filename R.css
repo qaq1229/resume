@@ -57,7 +57,6 @@ a:hover{
     left: -50px;
     top: -20px;
     z-index: 1;
-    font-family: 'Times New Roman', Times, serif;
 }
 .cb1{
     width: 250px;
@@ -81,7 +80,6 @@ a:hover{
     left: 0px;
     opacity: 0;
     transition: opacity .3s;
-
 }
 .p1:hover .pic-aft{
     opacity: 1;
@@ -97,8 +95,10 @@ a:hover{
     margin: 0px;
 }
 .t1 h2{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: normal;
     letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .t1 p{
     font-size: 14px;
