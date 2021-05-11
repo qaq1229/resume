@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 *{
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 body{
     background-color: #e6e6e6;
@@ -54,6 +53,7 @@ a{
     left: -50px;
     top: -20px;
     z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
 }
 .cb1{
     width: 250px;
