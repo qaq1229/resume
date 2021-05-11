@@ -80,7 +80,7 @@ a:hover{
     position: absolute; 
     left: 0px;
     opacity: 0;
-    transition: opacity .2s;
+    transition: opacity .3s;
 
 }
 .p1:hover .pic-aft{
@@ -143,10 +143,10 @@ a:hover{
     letter-spacing: 5px;
 }
 .t2 img{
-    width: 400px;
+    width: 410px;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 0px;
     opacity: 0;
 }
 .t2 p:hover +img{
