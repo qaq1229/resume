@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 *{
-    font-family: ‘cwTeXFangSong’, serif;
+    font-family: 'cwTeXFangSong', serif;
 }
 body{
     background-color: #e6e6e6;
@@ -76,7 +76,7 @@ a{
     position: absolute; 
     left: 0px;
     opacity: 0;
-    transition: opacity .3s;
+    transition: opacity .2s;
 
 }
 .p1:hover .pic-aft{
