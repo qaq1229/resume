@@ -122,6 +122,9 @@ a:hover{
     /*background-color: rgb(238, 238, 238);*/
     padding-left: 40px;
 }
+.t2{
+    margin-left: -5px;
+}
 .t2 h1{
     font-size: 40px;
     margin: 0px;
@@ -151,7 +154,8 @@ a:hover{
 }
 
 .t3{
-    margin-top: 40px;
+    margin-top: 45px;
+    margin-left: 20px;
 }
 .t3 h1{
     font-size: 20px;
@@ -180,7 +184,7 @@ a:hover{
 }
 
 
-/*Skill=======================================*/
+/*Skill===========================================*/
 .s2{
     height: 590px;
     /*background-color: #fff;*/
@@ -296,11 +300,11 @@ a:hover{
 }
 .b-bar{
     margin-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 2px;
 }
 .b-bar p{
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .progress{
     width: 100%;
@@ -316,6 +320,7 @@ a:hover{
     border-radius: 10px;
     position: relative;
     transition: all 2s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .progress-bar span{
     position: absolute;
@@ -323,7 +328,7 @@ a:hover{
     right: 0;
     color: #fff;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 2px;
     margin-right: 5px;
 }
@@ -335,7 +340,7 @@ a:hover{
     display: flex;
 }
 .s3{
-    height: 1100px;
+    height: 1070px;
     /*background-color: rgb(206, 206, 206);*/
 }
 .b5{
@@ -356,12 +361,12 @@ a:hover{
 .b5 img{
     height: 240px;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 .b6{
     position: relative;
     left: 100px;
-    top: 60px;
+    top: 50px;
     width: 450px;
     height: 300px;
     /*background-color: rosybrown;*/
@@ -376,12 +381,12 @@ a:hover{
 .b6 img{
     height: 220px;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 .b7{
     position: relative;
     left: 100px;
-    top: 90px;
+    top: 70px;
     height: 280px;
     width: 450px;
     /*background-color: royalblue;*/
@@ -396,7 +401,7 @@ a:hover{
 .b7 img{
     height: 220px;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 table {
     /*border: 1px solid;*/
@@ -435,21 +440,21 @@ td{
 .b5 table{
     position: relative;
     left: 25px;
-    top: -203px;
+    top: -213px;
     margin-bottom: 18px;
     height: 60px;
 }
 .b6 table{
     position: relative;
     left: 25px;
-    top: -181px;
+    top: -191px;
     margin-bottom: 18px;
     height: 82px;
 }
 .b7 table{
     position: relative;
     left: 25px;
-    top: -181px;
+    top: -191px;
     margin-bottom: 18px;
     height: 82px;
 }
@@ -479,10 +484,11 @@ td{
 .b8 h2{
     font-size: 18px;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 .b8 p{
     letter-spacing: 1px;
-    line-height: 24px;
+    line-height: 25px;
 }
 .c1{
     margin-top: 40px;
@@ -532,7 +538,7 @@ td{
 
 /*作品集================================================*/
 .s4{
-    height: 900px;
+    height: 930px;
     /*background-color: thistle;*/
 }
 .b9{
@@ -540,7 +546,7 @@ td{
     height: 850px;
     position: relative;
     left: 100px;
-    top: 30px;
+    top: 50px;
     /*background-color: lightblue;*/
 }
 .b9 h1{
