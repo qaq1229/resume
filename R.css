@@ -1,14 +1,12 @@
-
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
-
-
+*{
+    font-family: ‘cwTeXFangSong’, serif;
+}
 body{
     background-color: #e6e6e6;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    font-family: ‘cwTeXFangSong’, serif;
-
 }
 .big{
     width: 1180px;
