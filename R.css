@@ -24,6 +24,7 @@ nav{
     top: 120px;
     right: 100px;
     z-index: 20;
+    border-bottom: 2px solid #e6e6e6;
 }
 nav p{
     color: #637082;
@@ -112,7 +113,7 @@ a{
 }
 .b2{
     position: absolute;
-    top: 230px;
+    top: 210px;
     left: 600px;
     width: 450px;
     height: 560px;
@@ -513,19 +514,6 @@ td{
 .b9 h1 span{
     font-size: 16px;
 }
-.b9 img{
-    width: 500px;
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    transition: transform .4s;
-    box-shadow:3px 3px 12px #C2C2C2;
-
-}
-.b9 img:hover{
-    transform: scale(1.1);
-
-}
 .b9 h2{
     font-size: 18px;
     letter-spacing: 2px;
@@ -536,7 +524,28 @@ td{
     letter-spacing: 1px;
     line-height: 24px;
 }
-
+.port-1 img{
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: transform .4s;
+    box-shadow:3px 3px 12px #C2C2C2;
+}
+.port-1 img:hover{
+    transform: scale(1.1);
+}
+.port-2 img{
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: transform .4s;
+    box-shadow:3px 3px 12px #C2C2C2;
+}
+.port-2 img:hover{
+    transform: scale(1.1);
+}
 .port-1{
     /*background-color: #e1edfa;*/
     border-radius: 20px;
@@ -593,8 +602,6 @@ td{
     color: #3A5471;
 }
 
-
-
 .port-1 .bt{
     background-color: #9FAFC5;
     color: #fff;
@@ -613,7 +620,6 @@ td{
     transform: scale(1.05);
     box-shadow:3px 3px 12px #C2C2C2;
 }
-
 .port-2 .bt{
     background-color: #9FAFC5;
     color: #fff;
@@ -627,6 +633,15 @@ td{
     top: -50px;
     letter-spacing: 2px;
     transition: transform .4s;
+}
+.bt-c img{
+    opacity: 0;
+}
+.port-1:hover +.bt-c img{
+    opacity: 1;
+}
+.port-2:hover +.bt-c img{
+    opacity: 1;
 }
 
 /*footer===============================*/
