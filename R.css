@@ -32,6 +32,10 @@ a{
     text-decoration:none;
     color: #637082;
 }
+a:hover{
+    color: #263344;
+    font-weight: 700;
+}
 
 /*Info========================================*/
 .s1{
@@ -111,7 +115,7 @@ a{
 }
 .b2{
     position: absolute;
-    top: 210px;
+    top: 220px;
     left: 600px;
     width: 450px;
     height: 560px;
@@ -124,9 +128,28 @@ a{
 }
 .t2 p{
     font-size: 16px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin: 0px;
+    position: relative;
+    left: 30px;
+    transition: .3s;
+    z-index: 1;
+    width: 350px;
 }
+.t2 p:hover{
+    letter-spacing: 5px;
+}
+.t2 img{
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0;
+}
+.t2 p:hover +img{
+    opacity: 0.75;
+}
+
 .t3{
     margin-top: 40px;
 }
@@ -464,10 +487,21 @@ td{
 .c1{
     margin-top: 40px;
 }
+.c1-p2{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+    transition: .4s;
+}
 .c2{
     margin-top: 50px;
 }
-/*hover互動===================*/
+.c2-p2{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+    transition: .4s;
+}
 .b8-icon-1 img{
     opacity: 0;
 }
@@ -478,7 +512,9 @@ td{
 .c1:hover .b8-icon-1 img{
     opacity: 1;
 }
-
+.c1:hover .c1-p2{
+    opacity: 1;
+}
 .b8-icon-2 img{
     opacity: 0;
 }
@@ -489,8 +525,10 @@ td{
 .c2:hover .b8-icon-2 img{
     opacity: 1;
 }
+.c2:hover .c2-p2{
+    opacity: 1;
+}
 
-    
 
 /*作品集================================================*/
 .s4{
