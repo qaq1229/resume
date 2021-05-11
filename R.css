@@ -1,8 +1,14 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
 body{
     background-color: #e6e6e6;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    font-family: ‘cwTeXFangSong’, serif;
+
 }
 .big{
     width: 1180px;
@@ -22,12 +28,12 @@ nav{
 nav p{
     color: #637082;
     letter-spacing: 3px;
+    font-size: 16px;
 }
 a{
     text-decoration:none;
     color: #637082;
 }
-
 
 /*Info========================================*/
 .s1{
@@ -40,7 +46,7 @@ a{
 .b1{
     position: absolute;
     top: 40px;
-    left: 160px;
+    left: 180px;
 }
 .title h1{
     font-size: 46px;
@@ -106,7 +112,7 @@ a{
 }
 .b2{
     position: absolute;
-    top: 160px;
+    top: 230px;
     left: 600px;
     width: 450px;
     height: 560px;
@@ -130,6 +136,9 @@ a{
     letter-spacing: 3px;
     margin: 0px;
 }
+.t3 h1 span{
+    font-size: 16px;
+}
 .t4{
     display: flex;
 }
@@ -145,7 +154,7 @@ a{
     width: 38px;
     height: 38px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top:15px;
 }
 
 
@@ -166,6 +175,9 @@ a{
 .b3 h1{
     font-size: 20px;
     letter-spacing: 3px;
+}
+.b3 h1 span{
+    font-size: 16px;
 }
 .b-skills
 {
@@ -257,6 +269,9 @@ a{
     font-size: 20px;
     letter-spacing: 3px;
 }
+.b4 h1 span{
+    font-size: 16px;
+}
 .b-bar{
     margin-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -313,6 +328,9 @@ a{
     font-size: 20px;
     letter-spacing: 3px;
 }
+.b5 h1 span{
+    font-size: 16px;
+}
 .b5 img{
     height: 240px;
     position: relative;
@@ -329,6 +347,9 @@ a{
 .b6 h1{
     font-size: 20px;
     letter-spacing: 3px;
+}
+.b6 h1 span{
+    font-size: 16px;
 }
 .b6 img{
     height: 220px;
@@ -347,6 +368,9 @@ a{
     font-size: 20px;
     letter-spacing: 3px;
 }
+.b7 h1 span{
+    font-size: 16px;
+}
 .b7 img{
     height: 220px;
     position: relative;
@@ -360,7 +384,7 @@ table {
     border-radius: 10px;
     letter-spacing: 2px;
     line-height: 22px;
-    transition: .5s;
+    transition: .3s;
 }
 td{
     /*border: 1px solid;*/
@@ -423,6 +447,9 @@ td{
     font-size: 20px;
     letter-spacing: 3px;
 }
+.b8 h1 span{
+    font-size: 16px;
+}
 .b8 img{
     width: 480px;
     border-radius: 10px;
@@ -436,10 +463,10 @@ td{
     line-height: 24px;
 }
 .c1{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .c2{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 /*hover互動===================*/
 .b8-icon-1 img{
@@ -483,6 +510,9 @@ td{
     font-size: 20px;
     letter-spacing: 3px;
 }
+.b9 h1 span{
+    font-size: 16px;
+}
 .b9 img{
     width: 500px;
     border-radius: 5px;
@@ -518,16 +548,16 @@ td{
 .port-1 h2{
     position: absolute;
     left: 600px;
-    top: 105px;
+    top: 100px;
 }
 .port-1:hover h2{
     letter-spacing: 8px;
-    left: 645px;
+    left: 668px;
 }
 .port-1 p{
     position:absolute;
     left: 600px;
-    top: 155px;
+    top: 150px;
 }
 .port-1 p span{
     font-size: 15px;
@@ -545,22 +575,58 @@ td{
 .port-2 h2{
     position: absolute;
     left: 600px;
-    top: 490px;
+    top: 485px;
 }
 .port-2:hover h2{
     letter-spacing: 8px;
-    left: 648px;
+    left: 666px;
 }
 .port-2 p{
     position:absolute;
     left: 600px;
-    top: 540px;
+    top: 535px;
 }
 .port-2 p span{
     font-size: 15px;
 }
 .port-2:hover span{
     color: #3A5471;
+}
+
+
+
+.port-1 .bt{
+    background-color: #9FAFC5;
+    color: #fff;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    left: 810px;
+    top: -50px;
+    letter-spacing: 2px;
+    transition: transform .4s;
+}
+.bt:hover{
+    transform: scale(1.05);
+    box-shadow:3px 3px 12px #C2C2C2;
+}
+
+.port-2 .bt{
+    background-color: #9FAFC5;
+    color: #fff;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    left: 810px;
+    top: -50px;
+    letter-spacing: 2px;
+    transition: transform .4s;
 }
 
 /*footer===============================*/
