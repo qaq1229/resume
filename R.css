@@ -491,7 +491,7 @@ td{
     position: absolute;
     left: 0px;
     opacity: 0;
-    transition: .4s;
+    transition: .3s;
 }
 .c2{
     margin-top: 50px;
@@ -500,7 +500,7 @@ td{
     position: absolute;
     left: 0px;
     opacity: 0;
-    transition: .4s;
+    transition: .3s;
 }
 .b8-icon-1 img{
     opacity: 0;
