@@ -1,5 +1,6 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;   
+    scroll-behavior: smooth; 
 }
 body{
     background-color: #e6e6e6;
